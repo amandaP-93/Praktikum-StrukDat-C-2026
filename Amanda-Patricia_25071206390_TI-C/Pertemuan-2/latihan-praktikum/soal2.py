@@ -6,7 +6,7 @@ print(barang[2])
 # barang[2] = 14000000
 
 # Penjelasan:
-# Kode ini akan error karena isi Tuple tidak dapat diubah.
-# Harus diubah menjadi List terlebih dahulu.
+# Kode ini akan mengalami error karena Tuple bersifat immutable (tidak bisa diubah).
+# Oleh karena itu, Tuple harus dikonversi menjadi List terlebih dahulu.
 
 kode, nama, harga = barang
